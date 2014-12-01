@@ -963,7 +963,8 @@ a.transp:hover {
 	-webkit-border-radius:2px;
 	behavior:url(css/styles/pie.htc);
 }
-.button {
+.button,
+.gform .button {
 	font-weight:bold;
 	text-shadow:1px 1px 0 rgba(0, 0, 0, .2);
 	padding:7px 15px 6px;
@@ -974,7 +975,7 @@ a.transp:hover {
 	-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, .5);
 	behavior:url(css/styles/pie.htc);
 }
-.btn_1 {
+.btn_1, .gform .button {
 	background:url(../images/buttons/btn_1.png) repeat-x 0 0;
 }
 .btn_2 {
@@ -1200,25 +1201,33 @@ a.transp:hover {
 	float:right;
 	padding:10px 0 20px;
 }
-#contactform label {
+#contactform label,
+#gform_4 label {
 	clear:both;
 }
 #contactform .message_info label {
 	clear:none;
 }
-#contactform {
+#contactform,
+#gform_4 {
 	padding:15px 0 0;
 }
-#contactform label, #commentform label {
+#contactform label, 
+#commentform label,
+#gform_4 label {
 	width:25%;
 	float:right;
 	padding:4px 0 0;
 }
-#contactform label.message {
+#contactform label.message,
+ {
 	float:none;
 	padding:10px 0 20px;
 }
-#contactform input, #commentform input {
+#contactform input, 
+#commentform input,
+#gform_4 input[type="text"],
+#gform_4 input[type="email"] {
 	border:1px solid rgba(255, 255, 255, 0.3);
 	color:#ffffff;
 	height:28px;
@@ -1230,6 +1239,10 @@ a.transp:hover {
 	opacity:0.7;
 	filter:alpha(opacity=70);
 }
+
+#contactform input[type="submit"] {
+	width:73%
+}
 #commentform {
 	padding:10px 0 0;
 }
@@ -1239,7 +1252,9 @@ a.transp:hover {
 #commentform label {
 	width:52%;
 }
-#contactform textarea, #commentform textarea {
+#contactform textarea,
+ #commentform textarea,
+ #gform_4 textarea {
 	border:1px solid rgba(255, 255, 255, 0.3);
 	color:#ffffff;
 	width:430px;
@@ -1252,6 +1267,12 @@ a.transp:hover {
 	filter:alpha(opacity=70);
 	resize:vertical;
 }
+
+ #gform_4 textarea {
+	margin:0;
+}
+
+
 #commentform textarea {
 	margin:10px 0;
 	width:530px;
@@ -1897,7 +1918,8 @@ text-transform: uppercase;
 font-size: 16px;
 }
 
-#contactform #gform_submit_button_1 {
+#contactform #gform_submit_button_1 ,
+{
 background: #00adea;
 color: #fff;
 display: block;
@@ -1916,12 +1938,14 @@ font-weight: normal;
 
 
 
-#contactform #gform_submit_button_1:hover {
+#contactform #gform_submit_button_1:hover
+ {
 	cursor:pointer;
 	background:rgb(33, 65, 148);
 	
 }
-#contactform select {
+#contactform select,
+#gform_4 select {
 border: 1px solid rgba(255, 255, 255, 0.3);
 color: #ffffff;
 height: 28px;
@@ -1937,7 +1961,8 @@ filter: alpha(opacity=70);
 
 
 
-#contactform select {
+#contactform select,
+#gform_4 select {
   width: 73%;
   background-image: url('../images/select_arrow.gif');
   background-position: 95.8% 50%;
@@ -1948,7 +1973,8 @@ filter: alpha(opacity=70);
 }
 
 
-#contactform input[type="checkbox"] {
+#contactform input[type="checkbox"],
+#gform_4 input[type="checkbox"]  {
 color: #ffffff;
 height: 20px;
 width: 14px;
@@ -1977,7 +2003,8 @@ text-align: left;
 }
 
 
-#contactform .checkbox label{
+#contactform .checkbox label,
+#gform_4 .checkbox label {
 width: 100%;
 float: left;
 padding: 0;
@@ -2012,12 +2039,30 @@ margin: 11px 0 0 0;
 display:none
 }
 
-.homepage #contactform label , .interest #contactform label {
+.homepage #contactform label , 
+.interest #contactform label,
+#gform_4 label {
 clear: none;
 float: left;
-margin: -6px 0 0 0;
 width: 240px;
 }
+
+.gform_wrapper .gfield_error .gfield_label {
+color: #FFF;
+font-weight:bold;
+}
+
+
+#gform_4 label {
+margin: 0 0 4px;
+}
+
+
+.page .gform_wrapper .gfield_error .gfield_label {
+	color:#fff;
+	font-weight:bold;
+}
+
 
 
 .cta-link {
@@ -2049,7 +2094,9 @@ background-size: 80%;
 
 
 .homepage .gform_wrapper li.gfield.gfield_error, 
-.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning,
+.page .gform_wrapper li.gfield.gfield_error, 
+.page.gform_wrapper li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
 background-color: transparent;
 margin-bottom: 6px !important;
 padding: 6px 0 4px 0 !important;
@@ -2120,7 +2167,10 @@ border: 1px solid #790000!Important;
 
 .homepage .gform_wrapper li, 
 .homepage  .gform_wrapper form li , 
-.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required{
+.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required,
+.page .gform_wrapper li, 
+.page  .gform_wrapper form li , 
+.page .gform_wrapper li.gfield.gfield_error.gfield_contains_required{
 margin-left: 0 !important;
 list-style-type: none !important;
 list-style-image: none !important;
@@ -2212,25 +2262,48 @@ top: 110px;
 	font-weight: bold;
 }
 
-.gform_wrapper li.gfield_error div.ginput_complex.ginput_container label, 
-.gform_wrapper li.gfield_error ul.gfield_checkbox, .gform_wrapper li.gfield_error ul.gfield_radio {
+/* VALIDATION CSS */
+
+.page .gform_wrapper li.gfield_error div.ginput_complex.ginput_container label, 
+.page .gform_wrapper li.gfield_error ul.gfield_checkbox, .gform_wrapper li.gfield_error ul.gfield_radio {
 color: #F53434;
 }
 
-.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
+.homepage .gform_wrapper li.gfield.gfield_error.gfield_contains_required,
+.page .gform_wrapper li.gfield.gfield_error.gfield_contains_required {
 margin-top: 0;
 margin-bottom: 0 !important;
 padding-left: 0 !important;
 }
 
 .homepage  .gform_wrapper .top_label .gfield_description.validation_message, 
-.homepage  .gform_wrapper .gfield_description.validation_message {
+.homepage  .gform_wrapper .gfield_description.validation_message,
+.page .gform_wrapper .top_label .gfield_description.validation_message, 
+.page .gform_wrapper .gfield_description.validation_message {
 padding:0 !important;
 }
 
 .homepage  .gform_wrapper .validation_message,
 .homepage  .gform_wrapper li.gfield_error ul.gfield_checkbox, 
-.homepage  .gform_wrapper li.gfield_error ul.gfield_radio {
+.homepage  .gform_wrapper li.gfield_error ul.gfield_radio,
+.page .gform_wrapper .validation_message,
+.page .gform_wrapper li.gfield_error ul.gfield_checkbox, 
+.page .gform_wrapper li.gfield_error ul.gfield_radio  {
 color: #C32222;
 
+}
+
+#gform_submit_button_4 {
+background: url(../images/buttons/btn_1.png) repeat-x 0 0;
+font-weight: bold;
+text-shadow: 1px 1px 0 rgba(0, 0, 0, .2);
+padding: 7px 15px 6px;
+margin: 0 5px 0 0;
+display: inline-block;
+box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+-moz-box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+behavior: url(css/styles/pie.htc);
+color:#fff;
+border:1px solid #555
 }

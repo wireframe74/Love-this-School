@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"get_head",
+				"get_header"
+			],
+			[
 				"IM",
 				"important"
 			],
@@ -116,11 +120,44 @@
 			}
 		},
 		{
-			"file": "interest.php",
+			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 8169,
+				"buffer_size": 3931,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "reunion-registration.php",
+			"settings":
+			{
+				"buffer_size": 1865,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 49526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tasks/custom.js",
+			"settings":
+			{
+				"buffer_size": 143,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1053,
+				"line_ending": "Windows",
+				"name": "<div class=\"cl\"></div>"
 			}
 		},
 		{
@@ -132,18 +169,10 @@
 			}
 		},
 		{
-			"file": "style.css",
+			"file": "404.php",
 			"settings":
 			{
-				"buffer_size": 249,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "page.php",
-			"settings":
-			{
-				"buffer_size": 6570,
+				"buffer_size": 5486,
 				"line_ending": "Unix"
 			}
 		},
@@ -292,10 +321,21 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme"
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/css",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/js"
 	],
 	"file_history":
 	[
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/style.css",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/woothemes-FlexSlider-a4647ed/demo/css/shThemeDefault.css",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/options/connect.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/options/concat.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/options/autoprefixer.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/options/imagemin.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/options/sass.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/tasks/custom.js",
+		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/woothemes-FlexSlider-a4647ed/demo/thumbnail-slider.html",
 		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/index.php",
 		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/sftp-config.json",
 		"/C/wamp/www/love-this-school/wp-content/themes/lts-theme/css/style.css",
@@ -414,16 +454,7 @@
 		"/C/wamp/www/aawep/wp-content/themes/aawep/single-cat-ask-alison.php",
 		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/aa-nav.php",
 		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/SANDSTORM/local-dev/wp-content/themes/sandstorm/page-shop.php",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/SANDSTORM/local-dev/wp-content/themes/sandstorm/style.css",
-		"/C/wamp/www/wei/wp-config.php",
-		"/C/wamp/www/aawep/wp-content/themes/aawep/assets/css/custom.css",
-		"/C/wamp/www/wei/wp-content/themes/aawep/assets/css/custom.scss",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/custom.scss",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/wei/assets/css/custom.css",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/fonts.css",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/base.css",
-		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/AAWEP/2014/sites/aawep/oct-10-14/assets/css/datepicker.css",
-		"/C/wamp/www/aawep/wp-content/themes/aawep/templates/post-banner.php"
+		"/C/Users/ChrisJ/Dropbox/CHRIS_WORK/HIVE/SANDSTORM/local-dev/wp-content/themes/sandstorm/style.css"
 	],
 	"find":
 	{
@@ -444,6 +475,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".gform_wrapper",
+			"#contactform",
 			"div",
 			".item",
 			"contain",
@@ -569,9 +602,7 @@
 			"Special",
 			"special",
 			"Get Your Depreciation",
-			"contact",
-			"MOBILE VERS",
-			"toggleWidth"
+			"contact"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -634,7 +665,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -666,24 +697,24 @@
 						"translation.y": 3759.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "interest.php",
+					"file": "header.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8169,
+						"buffer_size": 3931,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8151,
-								8151
+								1031,
+								1031
 							]
 						],
 						"settings":
@@ -695,14 +726,139 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3789.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "reunion-registration.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								749
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47410,
+								47410
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 39906.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tasks/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 143,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 5,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1053,
+								1053
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<div class=\"cl\"></div>",
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "register.php",
 					"semi_transient": false,
 					"settings":
@@ -727,58 +883,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4932.0,
+						"translation.y": 4889.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "style.css",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 249,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								249,
-								249
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "page.php",
+					"buffer": 7,
+					"file": "404.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6570,
+						"buffer_size": 5486,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6552,
-								6552
+								1377,
+								1377
 							]
 						],
 						"settings":
@@ -790,14 +915,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2527.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 8,
 					"file": "contact.php",
 					"semi_transient": false,
 					"settings":
@@ -825,11 +950,11 @@
 						"translation.y": 3733.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 9,
 					"file": "almnae-gallery.php",
 					"semi_transient": false,
 					"settings":
@@ -857,7 +982,7 @@
 						"translation.y": 3067.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -913,6 +1038,18 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"page",
+				"page.php"
+			],
+			[
+				"style",
+				"css\\style.css"
+			],
+			[
+				"tasks",
+				"tasks\\custom.js"
+			],
 			[
 				"glob",
 				"css\\_globals.scss"
